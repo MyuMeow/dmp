@@ -4,6 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+// iView
+import iView from 'iview'; // 引用
+import 'iview/dist/styles/iview.css'; // 导入样式
+Vue.use(iView);
+// normalize
+import 'normalize.css';
+import './assets/css/reset.css';
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
