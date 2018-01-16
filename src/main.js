@@ -10,9 +10,9 @@ import 'iview/dist/styles/iview.css'; // 导入样式
 Vue.use(iView);
 // normalize
 import 'normalize.css';
-import './assets/css/reset.css';
+import './assets/css/global.css';
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
 new Vue({

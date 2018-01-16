@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+}
+
+.ins-layer {
+  position: absolute;
+  top: 108px;
+  left: 0;
+  right: 20px;
+  bottom: 84px;
+  overflow: hidden;
+}
+
+.ins-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: -20px;
+  bottom: -20px;
+  overflow: auto;
+  padding:  20px;
+}
