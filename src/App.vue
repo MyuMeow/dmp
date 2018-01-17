@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Layout>
-      <Header></Header>
+      <Header :style="{color: '#fff'}">Data Manage Platform Data Manage Platform Data Manage Platform Data Manage
+        Platform Data Manage Platform Data Manage Platform Data Manage Platform
+      </Header>
       <Layout>
         <Sider>
           <Layout :style="{height: '100%', overflow: 'hidden'}">

@@ -31,7 +31,7 @@
     },
     computed: {
       getPageNum () {
-        return this.jumpItems.length // + 1
+        return this.jumpItems.length;
       }
     },
     methods: {

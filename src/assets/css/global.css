@@ -2,6 +2,7 @@ html, body {
   height: 100%;
 }
 
+/* 子页面Content */
 .ins-layer {
   position: absolute;
   top: 108px;
@@ -18,5 +19,17 @@ html, body {
   right: -20px;
   bottom: -20px;
   overflow: auto;
-  padding:  20px;
+  padding: 20px;
 }
+
+/* 子页面Content内部 */
+.row-spacing {
+  margin-bottom: 20px;
+}
+
+.item-title {
+  display: block;
+  line-height: 32px;
+  text-indent: 10px;
+}
+

@@ -1,7 +1,7 @@
 <template>
   <ul class="jump-header">
     <li v-for="(item, index) in jumpItems" :key="index"
-        :class="{clicked: getClickedIndex >= index,active: getActiveIndex == index}"
+        :class="{clicked: getClickedIndex >= index, error: errorIndex == index, active: getActiveIndex == index}"
         @click="jumpItemClick(index)">{{ (index + 1) + '.' + item }}
     </li>
   </ul>
@@ -16,7 +16,8 @@
     data () {
       return {
         activeIndex: 0,
-        clickedIndex: 0
+        clickedIndex: 0,
+        errorIndex: -1
       }
     },
     computed: {
@@ -44,6 +45,7 @@
 
 <style>
   .jump-header {
+    height: 40px;
     overflow: hidden;
   }
 
@@ -62,6 +64,10 @@
 
   .jump-header li.clicked {
     background: #57c5f7;
+  }
+
+  .jump-header li.error {
+    background: #ed3f14;
   }
 
   .jump-header li.active {

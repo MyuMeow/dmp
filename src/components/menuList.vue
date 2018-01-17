@@ -24,7 +24,7 @@
         </router-link>
         <router-link to="/business">
           <MenuItem name="business">
-            <Icon type="ios-navigate"></Icon>业务接口管理
+            <Icon type="ios-navigate"></Icon>业务系统管理
           </MenuItem>
         </router-link>
       </MenuGroup>
