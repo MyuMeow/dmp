@@ -33,3 +33,9 @@ html, body {
   text-indent: 10px;
 }
 
+.item-p {
+  height: 32px;
+  line-height: 32px;
+  text-indent: 10px;
+  color: #57a3f3;
+}
